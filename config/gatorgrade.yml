@@ -1,0 +1,68 @@
+# --> check the source code for various characteristics
+- src/lab01/Application/Application.ino:
+    - description: Ensure that Application.ino file exists in the src/lab01/Application/ directory
+      check: ConfirmFileExists
+    - description: Replace the 'Add Your Names Here' prompt in the program file
+      check: MatchFileFragment
+      options:
+        fragment: "Add Your Names Here"
+        count: 0
+        exact: true
+    - description: Create a sufficient number of single-line comments in Application.ino
+      check: CountSingleLineComments
+      options:
+        language: "Java"
+        count: 2
+        exact: false
+    - description: Complete all TODOs, remove the TODO markers in the Application.ino
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Write correct 'setup' method
+      check: MatchFileFragment
+      options:
+        fragment: "setup("
+        count: 1
+        exact: false
+    - description: Write correct 'loop' method
+      check: MatchFileFragment
+      options:
+        fragment: "loop("
+        count: 1
+        exact: false
+
+# --> check the technical writing for various characteristics
+- writing/report.md:
+    - description: Ensure that report.md file exists in the writing/ directory
+      check: ConfirmFileExists
+    - description: Write a minimum number of meaningful words (200) in the report
+      check: CountFileWords
+      options:
+        count: 200
+        exact: false
+    - description: Confirm that the markdown file has the correct number of headers
+      check: CountMarkdownTags
+      options:
+        tag: heading
+        count: 9
+        exact: true
+    - description: Complete all TODOs, remove the TODO markers in the report.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Replace the 'Add Your Names Here' prompt in the report file
+      check: MatchFileFragment
+      options:
+        fragment: "Add Your Names Here"
+        count: 0
+        exact: true
+
+# count number of commits in the GitHub repository
+- description: Have at least a specific minimum number of commits (10) in repository
+  check: CountCommits
+  options:
+    count: 10
