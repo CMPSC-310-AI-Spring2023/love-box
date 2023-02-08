@@ -56,4 +56,5 @@ In this section, drawing on class discussions and readings, answer the following
 
 ## Team Work
 
-I AM a team
+I AM a team myself
+
