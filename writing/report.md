@@ -12,7 +12,7 @@
 
 - Arduino board
 
-- springs,
+- springs
 - box with a slot
 - a gadget that can push forward
 - a light sensor or temperature sensor
@@ -34,7 +34,7 @@ It's an agent because:
 
 ## Challenges and Learning Experiences
 
-The physical part of this program is hard. Because I need to customize a box that could feed all the requirements. The point of this box is to make the clown inside jump out. However, it has to be scary enough, which means the clown will pop out in flash other than little by little. For this reason, I chose a spring to accomplish this part. It, unfortunately, introduces another problem: How to keep the spring squeezed so that it could release appropriately. My solution would be make a special box topping so that it could be stuck in slot. It will fix the springs. Then Arduino board interact with top so that it could release the spring after Arduino board senses environment changes. 
+The physical part of this program is hard. Because I need to customize a box that could feed all the requirements. The point of this box is to make the clown inside jump out. However, it has to be scary enough, which means the clown will pop out in flash other than little by little. For this reason, I chose a spring to accomplish this part. It, unfortunately, introduces another problem: How to keep the spring squeezed so that it could release appropriately. My solution would be make a special box topping so that it could be stuck in slot. It will fix the springs. Then Arduino board interact with top so that it could release the spring after Arduino board senses environment changes. However, things change. It's Valentine day so I suddenly decided 
 
 For the software part, coding is an inevitable challenge where I have to learn the Arduino board from scratch. Also, the communication between software and hardware replies on physics and engineering knowledge, which is what I am lack of.
 
