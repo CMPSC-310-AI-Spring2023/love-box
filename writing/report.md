@@ -39,6 +39,8 @@ The physical part of this program is hard. Because I need to customize a box tha
 
 For the software part, coding is an inevitable challenge where I have to learn the Arduino board from scratch. Also, the communication between software and hardware replies on physics and engineering knowledge, which is what I am lack of.
 
+Also, another challenge is adaptivity. I didn't get some material like spring as I planned so I had a hard time to find a decent way to make the jack working and popping out in an appropriate way. Finally, I found the cardboard did a good job on it. Also, instead of popping out, the jack shows up by flipping the cardboard.
+
 ## Ethical Benefits and Implications
 
 
