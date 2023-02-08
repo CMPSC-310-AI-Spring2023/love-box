@@ -8,7 +8,7 @@
 | ----------- | ----------- |
 |   dates    |    task 1   |
 
-### Hardware 
+### Hardware
 
 - Arduino board
 
