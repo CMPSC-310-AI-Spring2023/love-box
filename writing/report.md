@@ -24,7 +24,6 @@ A clown gift box. When it senses light gets dim or temperature gets high(i.e it 
 
 ## Agent
 
-
 Explain the characteristics/attributes of your agent, what makes it an agent (within the discussed course content), what makes it rational, what type of an agent it is, and what is its environment task (PEAS).
 
 It's an agent because:
@@ -42,7 +41,6 @@ For the software part, coding is an inevitable challenge where I have to learn t
 Also, another challenge is adaptivity. I didn't get some material like spring as I planned so I had a hard time to find a decent way to make the jack working and popping out in an appropriate way. Finally, I found the cardboard did a good job on it. Also, instead of popping out, the jack shows up by flipping the cardboard.
 
 ## Ethical Benefits and Implications
-
 
 In this section, drawing on class discussions and readings, answer the following questions
 
